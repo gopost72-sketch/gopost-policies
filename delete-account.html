@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Request deletion of your GOPost account and related data. Law365 support: gopost72@gmail.com.">
+<title>GOPost — Delete Account | Law365</title><style>
+    :root { color-scheme: light; --bg: #f8f7f3; --paper: #fffefa; --ink: #20322b; --muted: #58675f; --accent: #356455; --line: #dde5de; --tint: #eaf1eb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.75 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 820px; margin: 48px auto; padding: 40px; background: var(--paper); border: 1px solid var(--line); border-radius: 20px; }
+    .publisher { margin: 0 0 8px; color: var(--accent); font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.2; letter-spacing: -.03em; }
+    .meta { margin: 0; color: var(--muted); font-size: .92rem; }
+    .summary { margin: 28px 0; padding: 20px; background: var(--tint); border-radius: 12px; }
+    .summary p { margin: 0; }
+    h2 { margin: 30px 0 8px; font-size: 1.18rem; line-height: 1.4; }
+    p { margin: 10px 0; }
+    ul { margin: 8px 0; padding-left: 24px; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    code { font-size: .9em; overflow-wrap: anywhere; }
+    footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+    @media (max-width: 600px) { main { margin: 16px; padding: 24px 20px; border-radius: 14px; } }
+    @media (prefers-color-scheme: dark) { :root { color-scheme: dark; --bg: #15201b; --paper: #1c2a23; --ink: #e7eee8; --muted: #bdcbbf; --accent: #a9d9bd; --line: #3b4d41; --tint: #293e31; } }
+    @media print { body { background: white; color: black; } main { max-width: none; margin: 0; padding: 0; border: 0; } }
+  </style></head>
+<body><main>
+<header><p class="publisher">Law365 · GOPost</p><h1>Delete your GOPost account</h1><p class="meta">Updated 7 November 2026</p></header>
+<section aria-labelledby="request"><h2 id="request">Request deletion without opening the app</h2>
+<p>Email <a href="mailto:gopost72@gmail.com?subject=GOPost%20account%20deletion">gopost72@gmail.com</a> from the Google email address you use with GOPost. Use the subject <strong>GOPost account deletion</strong> and say that you want your GOPost account and associated data deleted. You do not need to give a reason.</p>
+<p>We may ask for proportionate verification of account ownership. Do not send passwords, OTPs, API keys or social access tokens. If you no longer have access to that email, contact us to discuss verification.</p>
+<p>Alternatively, use <strong>Settings → Delete account</strong> in GOPost when the online service is available. The development backend and automated job have not yet been activated; email remains the request route during development. An acknowledgement is not a claim that deletion has already finished. Support will confirm the status and completion or explain any lawful exception.</p></section>
+<section aria-labelledby="removed"><h2 id="removed">What is removed</h2>
+<p>The deletion workflow removes the GOPost Firebase sign-in identity, online profile and workspace, saved drafts, stored post records, conversations, insights, AI outputs, usage records, social credentials and associated connection/OAuth records. In-app deletion also clears the local GOPost cache; an email request cannot remotely erase offline copies on your phone. Clear GOPost storage in Android settings or uninstall to remove those local copies.</p>
+<p>Deleting GOPost does not delete your Google, Instagram, Facebook or YouTube account, posts or messages already sent to a platform, or files you exported. Revoke remaining platform permissions separately in the platform's account settings or <a href="https://myaccount.google.com/connections">Google account connections</a>.</p></section>
+<section aria-labelledby="retained"><h2 id="retained">Limited retained records</h2>
+<ul><li>A keyed social-identity hash and original trial dates are retained for the service's one-trial rule; the deleted GOPost user identifier is removed from that record.</li>
+<li>A minimal completion record is kept for 30 days after processing to prevent stale requests recreating deleted data, then removed by a subsequent lifecycle run.</li>
+<li>Raw webhook events expire after 7 days and are removed by a subsequent lifecycle run. Provider-held records and support correspondence are subject to their disclosed purposes and any legal obligations.</li></ul>
+<p>The 30-day recovery period after plan expiry does not require you to wait before requesting account deletion. Account-deletion requests are processed separately. While automated processing is unavailable, request handling is through support.</p></section>
+<p><a href="gopost.html">Read the GOPost privacy policy</a></p>
+<footer>GOPost · Law365 · <a href="mailto:gopost72@gmail.com">gopost72@gmail.com</a></footer>
+</main></body></html>
